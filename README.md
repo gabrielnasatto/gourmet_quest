@@ -1,18 +1,13 @@
 # Gourmet Quest Dashboard
 
 ## Visão Geral
-O **Gourmet Quest Dashboard** é um aplicativo web baseado em Streamlit projetado para analisar dados de restaurantes a partir do dataset da Zomato. Este painel interativo oferece insights sobre a quantidade de restaurantes registrados, cidades, médias de avaliações e custos médios para duas pessoas em vários países. Os dados são visualizados por meio de gráficos Plotly, com filtros para personalizar a visualização por país. Um recurso destacado é a conversão em tempo real de moedas para USD usando a API Frankfurter, garantindo comparações financeiras precisas e atualizadas.
+O **Gourmet Quest Dashboard** é um aplicativo web baseado em Streamlit projetado para analisar dados de restaurantes a partir do dataset da Zomato. Este painel interativo oferece insights sobre a quantidade de restaurantes registrados, cidades, médias de avaliações e custos médios para duas pessoas em vários países. Os dados são visualizados por meio de gráficos Plotly, com filtros para personalizar a visualização por país. 
 
 ## Funcionalidades
 - **Filtros por País**: Selecione países específicos para análise por meio de um widget multiseleção na barra lateral.
 - **Visualização de Dados em Tempo Real**:
-  - Quantidade de restaurantes registrados por país.
-  - Quantidade de cidades registradas por país.
-  - Média de avaliações por país.
-  - Custo médio para duas pessoas por país (convertido para USD).
+  - Gráficos com métricas para análise dos dados.
 - **Download de Dados**: Exporte o dataset filtrado como um arquivo CSV.
-- **Conversão Dinâmica de Moedas**: Converte automaticamente moedas locais para USD usando taxas de câmbio ao vivo da API Frankfurter.
-- **Design Responsivo**: Os gráficos se ajustam à largura do container para uma experiência de usuário fluida.
 
 ## Requisitos
 - **Python 3.8+**
